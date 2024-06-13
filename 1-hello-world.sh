@@ -2,5 +2,5 @@
 
 # This is a comment
 
-echo "First Shell Script"
+echo "Single line git commands: First Shell Script"
  
