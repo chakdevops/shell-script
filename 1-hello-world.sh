@@ -2,5 +2,5 @@
 
 # This is a comment
 
-echo "Single line git commands: First Shell Script"
+echo "Using Vagrant: First Shell Script"
  
