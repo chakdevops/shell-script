@@ -3,8 +3,13 @@
 USERNAME=$1
 PASSWORD=$2
 
-echo read -s  "Enter your Username: "
-echo read -p  "Enter your Password: "
 
+
+echo  "Enter your Username: "
+read -s "$USERNAME"
+
+
+echo  "Enter your Password: "
+read -p "$PASSWORD"
 
 # echo "Username is: $USERNAME, Password is: $PASSWORD"
