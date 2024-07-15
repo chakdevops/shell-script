@@ -1,15 +1,15 @@
 #!/bin/bash
 
-USERNAME=$1
-PASSWORD=$2
+#USERNAME=$1
+#PASSWORD=$2
 
 
 
 echo  "Enter your Username: "
-read -s $USERNAME
+read -s USERNAME
 
 
 echo  "Enter your Password: "
-read -p $PASSWORD
+read -p PASSWORD
 
-# echo "Username is: $USERNAME, Password is: $PASSWORD"
+echo "Username is: $USERNAME, Password is: $PASSWORD"
