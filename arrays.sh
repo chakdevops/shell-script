@@ -1,8 +1,8 @@
 #!/bin/bash
 
-fruits=("APPLE","BANANA","MANGO")
+FRUITS=("APPLE","BANANA","MANGO")
 
-echo "First Value: ${fruits[0]}"
-echo "First Value: ${fruits[1]}"
-echo "First Value: ${fruits[2]}"
+echo "First  Value: ${FRUITS[0]}"
+echo "Second Value: ${FRUITS[1]}"
+echo "Third  Value: ${FRUITS[2]}"
 
