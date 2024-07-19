@@ -26,7 +26,7 @@ else
     echo "You are root user"
 fi # fi means reverse of if, indicating condition end
 
-yum install mysql -y
+yum install mysql -y &>> $LOGFILE
 
 VALIDATE $? "Installing MySQL" # here, $? takes exit status argument as $1 and 
 #the statement "Installing MySQL" takes as the argument $2,
@@ -35,6 +35,6 @@ VALIDATE $? "Installing MySQL" # here, $? takes exit status argument as $1 and
 #installation and print the "Installing MySQL" statement coz it takes the $2 argument
 #o/p we will get as "Installing MySQL SUCCESS"
 
-yum install git -y
+yum install git -y &>> &LOGFILE
 
 VALIDATE $? "Installing GIT"
