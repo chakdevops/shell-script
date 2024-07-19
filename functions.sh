@@ -1,7 +1,13 @@
 #!/bin/bash
 
 ID=$(id -u)
+#Log file
+TIMESTAMP=$(date +%F-%H-%M-%S)
 
+LOGFILE="/tmp/$0-$TIMESTAMP.log"
+
+
+#Function
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
