@@ -40,7 +40,6 @@ do
         yum install $package -y &>> $LOGFILE # install the package
         VALIDATE $? "Installation of $package" # validate
     else
-        systemctl status $package
         echo -e "$package is already installed ... $Y SKIPPING $N"
 
     fi
